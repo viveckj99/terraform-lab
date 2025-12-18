@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "us-east-1"
-  access_key = "AKIA4WS7RFLQAPTKLVPC"
-  secret_key = "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"
+  access_key = "xxxx"
+  secret_key = "xxxxx"
 }
 # Creating EC2 Instance 
 resource "aws_instance" "web" {
@@ -12,4 +12,5 @@ resource "aws_instance" "web" {
     Name = "Prod Server"
 
   }
+
 }
